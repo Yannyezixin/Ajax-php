@@ -15,7 +15,6 @@
             <a class="delete" href="#" rel="<?php echo $value['id']; ?>">Delete</a>
         </div>
         <?php endforeach; ?>
-    </div>
     <form id="form">
         <label for="name">Name:</label>
         <input id="name" type="text" name="name" /><br />
@@ -25,5 +24,6 @@
         <input id="address" type="text" name="address" /><br />
         <input type="submit" value="Send">
     </form>
+    </div>
 </body>
 </html>
